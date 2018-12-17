@@ -19,44 +19,11 @@ import styled from 'styled-components'
 class App extends Component {
   render() {
     return (
-      //ВНимание класс пишется в формате camelCase
-      <div className="wrapper">
-        <SayFullName name="Nik" surname="Chops" link="ya.ru" />
-        <SayFullName name="Pop" surname="Tuk" link="vk.su" />
-        <SayFullName name="Ted" surname="Rol" link="sp.du" />
-      </div>
+      
+
     );
   }
 }
-
-
-
-
-function SayFullName (props) {
-  return (
-      <div>
-      <h1> Мое имя {props.name}, фамилия - {props.surname} </h1>
-      <a href={props.link}> Ссылка на мой профиль </a>
-      </div>
-    )
-}
-
-
-
-//Создаем ф-юю для использования одного и того же компонента с разными атрибутами
-// function MeetAll() {
-//   return (
-      
-//     )
-// }
-//Переместили всё из этой функции внутрь App
-
-
-
-//Переместили функцию в константу, что-бы сократить длину функции рендеринга и
-//лишний раз разбить на части
-// const element = <SayFullName name="Nik" surname="Chops" link="ya.ru" />
-
 
 
 export default App;
