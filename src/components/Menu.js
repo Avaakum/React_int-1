@@ -96,10 +96,7 @@ class Menu extends React.Component {
 					<Col lg={2}>
 						<CallButton>Заказать звонок!
 						</CallButton>
-
 					</Col>
-
-
 				</Row>
 			)
 	}
